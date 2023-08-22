@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100vh;
+  animation: slideDown 1.5s ease-in-out forwards;
+}
+body main .result-container {
+  width: 100%;
+  background: rgb(46, 43, 233);
+  background: linear-gradient(0deg, rgb(46, 43, 233) 32%, rgb(120, 87, 255) 82%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 3rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+body main .result-container .result {
+  font-size: 2rem;
+}
+body main .result-container .result-circle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(46, 43, 233);
+  background: linear-gradient(0deg, rgba(120, 87, 255, 0.2) 0%, rgb(46, 43, 233) 35%);
+}
+body main .result-container .result-circle #score {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+body main .result-container .result-circle .out-of {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+body main .result-container #result-text {
+  font-size: 2.2rem;
+}
+body main .result-container .result-text-phare {
+  font-size: 1.8rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+body main .summary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+body main .summary .summary-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+body main .summary div {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .summary .summary-pts {
+  font-size: 1.4rem;
+}
+body main .summary .summary-pts span:last-child {
+  color: gray;
+}
+body main .summary .summary-reaction {
+  background-color: rgba(255, 87, 87, 0.2);
+}
+body main .summary .summary-reaction img {
+  padding-right: 1rem;
+}
+body main .summary .summary-reaction span {
+  font-size: 1.4rem;
+}
+body main .summary .summary-memory {
+  background-color: rgba(255, 176, 31, 0.2);
+}
+body main .summary .summary-memory img {
+  padding-right: 1rem;
+}
+body main .summary .summary-memory span {
+  font-size: 1.4rem;
+}
+body main .summary .summary-verbal {
+  background-color: rgba(0, 189, 145, 0.2);
+}
+body main .summary .summary-verbal img {
+  padding-right: 1rem;
+}
+body main .summary .summary-verbal span {
+  font-size: 1.4rem;
+}
+body main .summary .summary-visual {
+  background-color: rgba(17, 37, 212, 0.2);
+}
+body main .summary .summary-visual img {
+  padding-right: 1rem;
+}
+body main .summary .summary-visual span {
+  font-size: 1.4rem;
+}
+body main .summary #summary-btn-continue {
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  background-color: hsl(224, 30%, 27%);
+  color: #fff;
+  border: none;
+  border-radius: 5rem;
+  transition: 2s;
+}
+body main .summary #summary-btn-continue:hover {
+  background: rgba(36, 33, 202, 0.5);
+  background: linear-gradient(0deg, rgb(36, 33, 202) 0%, rgb(78, 33, 202) 56%);
+}
+
+@keyframes slideDown {
+  0% {
+    margin-top: -100vh;
+  }
+  100% {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
