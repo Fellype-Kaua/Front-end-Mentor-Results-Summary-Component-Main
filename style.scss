@@ -33,7 +33,7 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 2vh;
+            gap: 1vh;
             padding: 3rem;
 
             border-bottom-left-radius: 3rem;
@@ -78,7 +78,7 @@ body {
             flex-direction: column;
             justify-content: left;
             padding: 2rem;
-            gap: 1.5vh;
+            gap: 1vh;
 
             .summary-title {
                 font-size: 2rem;
@@ -148,7 +148,7 @@ body {
             #summary-btn-continue {
                 font-size: 1.6rem;
                 padding: 1.5rem;
-                margin-top: 1rem;
+                margin-top: 0.5rem;
                 background-color: hsl(224, 30%, 27%);
                 color: $resultPrimaryColor;
 
