@@ -162,6 +162,7 @@ body main .summary #summary-btn-continue:hover {
     margin-top: 0;
     margin-left: -200vw;
     animation: slideLeft 1s ease-in-out forwards;
+    margin-bottom: 2rem;
   }
   body main .result-container {
     width: 100%;
